@@ -1,25 +1,25 @@
 //
-//  ViewController.swift
+//  InviteFriendsVC.swift
 //  HoosRight
 //
-//  Created by ios on 13/02/17.
+//  Created by ios on 17/02/17.
 //  Copyright © 2017 koios. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class InviteFriendsVC: UIViewController {
+
+    @IBOutlet weak var copyTextLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.copyTextLabel.copyingEnabled = true
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-

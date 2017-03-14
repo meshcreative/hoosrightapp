@@ -7,21 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		813BD5BA1E55B6200046CD9E /* EPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BD5B41E55B6200046CD9E /* EPConstants.swift */; };
+		813BD5BB1E55B6200046CD9E /* EPContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BD5B51E55B6200046CD9E /* EPContact.swift */; };
+		813BD5BC1E55B6200046CD9E /* EPContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BD5B61E55B6200046CD9E /* EPContactCell.swift */; };
+		813BD5BD1E55B6200046CD9E /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813BD5B71E55B6200046CD9E /* EPContactCell.xib */; };
+		813BD5BE1E55B6200046CD9E /* EPContactsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BD5B81E55B6200046CD9E /* EPContactsPicker.swift */; };
+		813BD5BF1E55B6200046CD9E /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BD5B91E55B6200046CD9E /* EPExtensions.swift */; };
 		814F8B571E51B8990012FA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B561E51B8990012FA9A /* AppDelegate.swift */; };
-		814F8B591E51B8990012FA9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B581E51B8990012FA9A /* ViewController.swift */; };
 		814F8B5C1E51B8990012FA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814F8B5A1E51B8990012FA9A /* Main.storyboard */; };
 		814F8B5E1E51B8990012FA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814F8B5D1E51B8990012FA9A /* Assets.xcassets */; };
 		814F8B611E51B8990012FA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814F8B5F1E51B8990012FA9A /* LaunchScreen.storyboard */; };
+		814F8B691E51BC910012FA9A /* ConstantsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B681E51BC910012FA9A /* ConstantsAPI.swift */; };
+		814F8B6B1E51BDA50012FA9A /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B6A1E51BDA50012FA9A /* RestApiManager.swift */; };
+		814F8B6D1E51BDBB0012FA9A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B6C1E51BDBB0012FA9A /* Validation.swift */; };
+		814F8B741E51BDE10012FA9A /* DOFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B6F1E51BDE10012FA9A /* DOFavoriteButton.swift */; };
+		814F8B751E51BDE10012FA9A /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 814F8B701E51BDE10012FA9A /* heart.png */; };
+		814F8B761E51BDE10012FA9A /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 814F8B711E51BDE10012FA9A /* like.png */; };
+		814F8B771E51BDE10012FA9A /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 814F8B721E51BDE10012FA9A /* smile.png */; };
+		814F8B781E51BDE10012FA9A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 814F8B731E51BDE10012FA9A /* star.png */; };
+		814F8B7C1E51BDEC0012FA9A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B7B1E51BDEC0012FA9A /* SWRevealViewController.m */; };
+		814F8B7E1E51BEC80012FA9A /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B7D1E51BEC80012FA9A /* FirstVC.swift */; };
+		814F8B821E51C0D10012FA9A /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B7F1E51C0D10012FA9A /* EmailVC.swift */; };
+		814F8B831E51C0D10012FA9A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B801E51C0D10012FA9A /* LoginVC.swift */; };
+		814F8B841E51C0D10012FA9A /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B811E51C0D10012FA9A /* RegisterVC.swift */; };
+		814F8B881E51C9740012FA9A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B861E51C9740012FA9A /* HomeVC.swift */; };
+		814F8B891E51C9740012FA9A /* RearVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B871E51C9740012FA9A /* RearVC.swift */; };
+		814F8B8B1E51CDB70012FA9A /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B8A1E51CDB70012FA9A /* FavouriteVC.swift */; };
+		814F8B8D1E51D1D10012FA9A /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B8C1E51D1D10012FA9A /* NotificationVC.swift */; };
+		814F8B8F1E51D3F90012FA9A /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B8E1E51D3F90012FA9A /* DetailVC.swift */; };
+		814F8B911E5342D60012FA9A /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F8B901E5342D50012FA9A /* SettingsVC.swift */; };
+		816B3CB51E66B83D00AF314F /* FriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B3CB41E66B83D00AF314F /* FriendsVC.swift */; };
+		8186A12D1E56E88C00CC6A94 /* UILabel+Copyable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8186A12C1E56E88C00CC6A94 /* UILabel+Copyable.m */; };
+		8186A12F1E56E95A00CC6A94 /* InviteFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186A12E1E56E95A00CC6A94 /* InviteFriendsVC.swift */; };
+		8186A1351E57057300CC6A94 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186A1341E57057300CC6A94 /* SearchVC.swift */; };
+		818B1D031E700421008342A1 /* CustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B1D021E700420008342A1 /* CustomTabBarVC.swift */; };
+		818B1D081E7041F3008342A1 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B1D071E7041F2008342A1 /* CameraVC.swift */; };
+		81956A821E77F0610010824C /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81956A811E77F0610010824C /* CameraManager.swift */; };
+		8197B6811E5ADF4B00D9C731 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197B6801E5ADF4B00D9C731 /* ProfileVC.swift */; };
+		81B1FEC11E543E98005D4EA7 /* FaceBookFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B1FEC01E543E98005D4EA7 /* FaceBookFriendsVC.swift */; };
+		81B1FEC31E543EAD005D4EA7 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B1FEC21E543EAD005D4EA7 /* EditProfileVC.swift */; };
+		81B1FEC51E543EBE005D4EA7 /* PasswordChangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B1FEC41E543EBE005D4EA7 /* PasswordChangeVC.swift */; };
+		81B1FEC71E546641005D4EA7 /* PrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B1FEC61E546640005D4EA7 /* PrivacyVC.swift */; };
+		81D370AF1E5D9F7C008F10D3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D370AE1E5D9F7C008F10D3 /* Social.framework */; };
+		81F8537A1E729C1900D122BD /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F853791E729C1900D122BD /* BubbleTransition.swift */; };
+		A3E6720F6683709D843D1EBB /* Pods_HoosRight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F27BBCADEA1EB2651D5F94F /* Pods_HoosRight.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AF0D90FC509C4C01845D943 /* Pods-HoosRight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoosRight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoosRight/Pods-HoosRight.debug.xcconfig"; sourceTree = "<group>"; };
+		2F429073F43792AE14DF766C /* Pods-HoosRight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoosRight.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoosRight/Pods-HoosRight.release.xcconfig"; sourceTree = "<group>"; };
+		4F27BBCADEA1EB2651D5F94F /* Pods_HoosRight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoosRight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		813BD5B41E55B6200046CD9E /* EPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPConstants.swift; sourceTree = "<group>"; };
+		813BD5B51E55B6200046CD9E /* EPContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContact.swift; sourceTree = "<group>"; };
+		813BD5B61E55B6200046CD9E /* EPContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContactCell.swift; sourceTree = "<group>"; };
+		813BD5B71E55B6200046CD9E /* EPContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPContactCell.xib; sourceTree = "<group>"; };
+		813BD5B81E55B6200046CD9E /* EPContactsPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContactsPicker.swift; sourceTree = "<group>"; };
+		813BD5B91E55B6200046CD9E /* EPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPExtensions.swift; sourceTree = "<group>"; };
 		814F8B531E51B8990012FA9A /* HoosRight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoosRight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814F8B561E51B8990012FA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		814F8B581E51B8990012FA9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		814F8B5B1E51B8990012FA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		814F8B5D1E51B8990012FA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814F8B601E51B8990012FA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814F8B621E51B8990012FA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814F8B681E51BC910012FA9A /* ConstantsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsAPI.swift; sourceTree = "<group>"; };
+		814F8B6A1E51BDA50012FA9A /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		814F8B6C1E51BDBB0012FA9A /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		814F8B6F1E51BDE10012FA9A /* DOFavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOFavoriteButton.swift; sourceTree = "<group>"; };
+		814F8B701E51BDE10012FA9A /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		814F8B711E51BDE10012FA9A /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		814F8B721E51BDE10012FA9A /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
+		814F8B731E51BDE10012FA9A /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		814F8B791E51BDEB0012FA9A /* HoosRight-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoosRight-Bridging-Header.h"; sourceTree = "<group>"; };
+		814F8B7A1E51BDEC0012FA9A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		814F8B7B1E51BDEC0012FA9A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		814F8B7D1E51BEC80012FA9A /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		814F8B7F1E51C0D10012FA9A /* EmailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
+		814F8B801E51C0D10012FA9A /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		814F8B811E51C0D10012FA9A /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		814F8B861E51C9740012FA9A /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		814F8B871E51C9740012FA9A /* RearVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RearVC.swift; sourceTree = "<group>"; };
+		814F8B8A1E51CDB70012FA9A /* FavouriteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
+		814F8B8C1E51D1D10012FA9A /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		814F8B8E1E51D3F90012FA9A /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		814F8B901E5342D50012FA9A /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		816B3CB41E66B83D00AF314F /* FriendsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsVC.swift; sourceTree = "<group>"; };
+		8186A12B1E56E88C00CC6A94 /* UILabel+Copyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Copyable.h"; sourceTree = "<group>"; };
+		8186A12C1E56E88C00CC6A94 /* UILabel+Copyable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Copyable.m"; sourceTree = "<group>"; };
+		8186A12E1E56E95A00CC6A94 /* InviteFriendsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendsVC.swift; sourceTree = "<group>"; };
+		8186A1341E57057300CC6A94 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		818B1D021E700420008342A1 /* CustomTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarVC.swift; sourceTree = "<group>"; };
+		818B1D071E7041F2008342A1 /* CameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		81956A811E77F0610010824C /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		8197B6801E5ADF4B00D9C731 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		81B1FEC01E543E98005D4EA7 /* FaceBookFriendsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceBookFriendsVC.swift; sourceTree = "<group>"; };
+		81B1FEC21E543EAD005D4EA7 /* EditProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		81B1FEC41E543EBE005D4EA7 /* PasswordChangeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeVC.swift; sourceTree = "<group>"; };
+		81B1FEC61E546640005D4EA7 /* PrivacyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyVC.swift; sourceTree = "<group>"; };
+		81D370AE1E5D9F7C008F10D3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		81F853791E729C1900D122BD /* BubbleTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +112,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D370AF1E5D9F7C008F10D3 /* Social.framework in Frameworks */,
+				A3E6720F6683709D843D1EBB /* Pods_HoosRight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13EF92A2F07DDBB7977D5B42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D370AE1E5D9F7C008F10D3 /* Social.framework */,
+				4F27BBCADEA1EB2651D5F94F /* Pods_HoosRight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		813BD5B31E55B6200046CD9E /* EPContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				813BD5B41E55B6200046CD9E /* EPConstants.swift */,
+				813BD5B51E55B6200046CD9E /* EPContact.swift */,
+				813BD5B61E55B6200046CD9E /* EPContactCell.swift */,
+				813BD5B71E55B6200046CD9E /* EPContactCell.xib */,
+				813BD5B81E55B6200046CD9E /* EPContactsPicker.swift */,
+				813BD5B91E55B6200046CD9E /* EPExtensions.swift */,
+			);
+			path = EPContactPicker;
+			sourceTree = "<group>";
+		};
 		814F8B4A1E51B8990012FA9A = {
 			isa = PBXGroup;
 			children = (
 				814F8B551E51B8990012FA9A /* HoosRight */,
 				814F8B541E51B8990012FA9A /* Products */,
+				E30AB58F567F107D02AFCDAD /* Pods */,
+				13EF92A2F07DDBB7977D5B42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +164,65 @@
 			isa = PBXGroup;
 			children = (
 				814F8B561E51B8990012FA9A /* AppDelegate.swift */,
-				814F8B581E51B8990012FA9A /* ViewController.swift */,
+				814F8B681E51BC910012FA9A /* ConstantsAPI.swift */,
+				814F8B6A1E51BDA50012FA9A /* RestApiManager.swift */,
+				814F8B6C1E51BDBB0012FA9A /* Validation.swift */,
+				814F8B7D1E51BEC80012FA9A /* FirstVC.swift */,
+				814F8B7F1E51C0D10012FA9A /* EmailVC.swift */,
+				814F8B801E51C0D10012FA9A /* LoginVC.swift */,
+				814F8B811E51C0D10012FA9A /* RegisterVC.swift */,
+				814F8B871E51C9740012FA9A /* RearVC.swift */,
+				818B1D021E700420008342A1 /* CustomTabBarVC.swift */,
+				818B1D071E7041F2008342A1 /* CameraVC.swift */,
+				814F8B861E51C9740012FA9A /* HomeVC.swift */,
+				8186A1341E57057300CC6A94 /* SearchVC.swift */,
+				816B3CB41E66B83D00AF314F /* FriendsVC.swift */,
+				814F8B8A1E51CDB70012FA9A /* FavouriteVC.swift */,
+				814F8B8C1E51D1D10012FA9A /* NotificationVC.swift */,
+				8197B6801E5ADF4B00D9C731 /* ProfileVC.swift */,
+				814F8B8E1E51D3F90012FA9A /* DetailVC.swift */,
+				814F8B901E5342D50012FA9A /* SettingsVC.swift */,
+				81B1FEC01E543E98005D4EA7 /* FaceBookFriendsVC.swift */,
+				81B1FEC21E543EAD005D4EA7 /* EditProfileVC.swift */,
+				81B1FEC41E543EBE005D4EA7 /* PasswordChangeVC.swift */,
+				81B1FEC61E546640005D4EA7 /* PrivacyVC.swift */,
+				8186A12E1E56E95A00CC6A94 /* InviteFriendsVC.swift */,
+				81F853791E729C1900D122BD /* BubbleTransition.swift */,
+				81956A811E77F0610010824C /* CameraManager.swift */,
 				814F8B5A1E51B8990012FA9A /* Main.storyboard */,
 				814F8B5D1E51B8990012FA9A /* Assets.xcassets */,
+				813BD5B31E55B6200046CD9E /* EPContactPicker */,
+				814F8B6E1E51BDE10012FA9A /* DOFavoriteButton */,
 				814F8B5F1E51B8990012FA9A /* LaunchScreen.storyboard */,
+				814F8B7A1E51BDEC0012FA9A /* SWRevealViewController.h */,
+				814F8B7B1E51BDEC0012FA9A /* SWRevealViewController.m */,
+				8186A12B1E56E88C00CC6A94 /* UILabel+Copyable.h */,
+				8186A12C1E56E88C00CC6A94 /* UILabel+Copyable.m */,
 				814F8B621E51B8990012FA9A /* Info.plist */,
+				814F8B791E51BDEB0012FA9A /* HoosRight-Bridging-Header.h */,
 			);
 			path = HoosRight;
+			sourceTree = "<group>";
+		};
+		814F8B6E1E51BDE10012FA9A /* DOFavoriteButton */ = {
+			isa = PBXGroup;
+			children = (
+				814F8B6F1E51BDE10012FA9A /* DOFavoriteButton.swift */,
+				814F8B701E51BDE10012FA9A /* heart.png */,
+				814F8B711E51BDE10012FA9A /* like.png */,
+				814F8B721E51BDE10012FA9A /* smile.png */,
+				814F8B731E51BDE10012FA9A /* star.png */,
+			);
+			path = DOFavoriteButton;
+			sourceTree = "<group>";
+		};
+		E30AB58F567F107D02AFCDAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AF0D90FC509C4C01845D943 /* Pods-HoosRight.debug.xcconfig */,
+				2F429073F43792AE14DF766C /* Pods-HoosRight.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 814F8B651E51B8990012FA9A /* Build configuration list for PBXNativeTarget "HoosRight" */;
 			buildPhases = (
+				0C671D96CC64958E11A3E27F /* [CP] Check Pods Manifest.lock */,
 				814F8B4F1E51B8990012FA9A /* Sources */,
 				814F8B501E51B8990012FA9A /* Frameworks */,
 				814F8B511E51B8990012FA9A /* Resources */,
+				A9D3509CE81B42278DDBBCD0 /* [CP] Embed Pods Frameworks */,
+				027E01254A63C186A8F0B6AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +260,8 @@
 				TargetAttributes = {
 					814F8B521E51B8990012FA9A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = BGRCQ5KLHX;
+						DevelopmentTeam = 389M226SMP;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,21 +289,106 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814F8B751E51BDE10012FA9A /* heart.png in Resources */,
+				814F8B761E51BDE10012FA9A /* like.png in Resources */,
 				814F8B611E51B8990012FA9A /* LaunchScreen.storyboard in Resources */,
+				813BD5BD1E55B6200046CD9E /* EPContactCell.xib in Resources */,
 				814F8B5E1E51B8990012FA9A /* Assets.xcassets in Resources */,
+				814F8B781E51BDE10012FA9A /* star.png in Resources */,
+				814F8B771E51BDE10012FA9A /* smile.png in Resources */,
 				814F8B5C1E51B8990012FA9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		027E01254A63C186A8F0B6AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoosRight/Pods-HoosRight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C671D96CC64958E11A3E27F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D3509CE81B42278DDBBCD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoosRight/Pods-HoosRight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		814F8B4F1E51B8990012FA9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				814F8B591E51B8990012FA9A /* ViewController.swift in Sources */,
+				813BD5BF1E55B6200046CD9E /* EPExtensions.swift in Sources */,
+				814F8B7C1E51BDEC0012FA9A /* SWRevealViewController.m in Sources */,
+				814F8B821E51C0D10012FA9A /* EmailVC.swift in Sources */,
+				8197B6811E5ADF4B00D9C731 /* ProfileVC.swift in Sources */,
+				8186A12D1E56E88C00CC6A94 /* UILabel+Copyable.m in Sources */,
+				814F8B7E1E51BEC80012FA9A /* FirstVC.swift in Sources */,
+				81F8537A1E729C1900D122BD /* BubbleTransition.swift in Sources */,
+				81B1FEC51E543EBE005D4EA7 /* PasswordChangeVC.swift in Sources */,
+				814F8B691E51BC910012FA9A /* ConstantsAPI.swift in Sources */,
+				8186A12F1E56E95A00CC6A94 /* InviteFriendsVC.swift in Sources */,
+				81B1FEC31E543EAD005D4EA7 /* EditProfileVC.swift in Sources */,
+				814F8B6B1E51BDA50012FA9A /* RestApiManager.swift in Sources */,
+				818B1D081E7041F3008342A1 /* CameraVC.swift in Sources */,
+				814F8B911E5342D60012FA9A /* SettingsVC.swift in Sources */,
+				813BD5BA1E55B6200046CD9E /* EPConstants.swift in Sources */,
+				814F8B8F1E51D3F90012FA9A /* DetailVC.swift in Sources */,
+				81956A821E77F0610010824C /* CameraManager.swift in Sources */,
+				816B3CB51E66B83D00AF314F /* FriendsVC.swift in Sources */,
+				814F8B831E51C0D10012FA9A /* LoginVC.swift in Sources */,
+				814F8B6D1E51BDBB0012FA9A /* Validation.swift in Sources */,
+				81B1FEC11E543E98005D4EA7 /* FaceBookFriendsVC.swift in Sources */,
+				814F8B741E51BDE10012FA9A /* DOFavoriteButton.swift in Sources */,
+				818B1D031E700421008342A1 /* CustomTabBarVC.swift in Sources */,
+				813BD5BC1E55B6200046CD9E /* EPContactCell.swift in Sources */,
 				814F8B571E51B8990012FA9A /* AppDelegate.swift in Sources */,
+				814F8B8B1E51CDB70012FA9A /* FavouriteVC.swift in Sources */,
+				8186A1351E57057300CC6A94 /* SearchVC.swift in Sources */,
+				814F8B881E51C9740012FA9A /* HomeVC.swift in Sources */,
+				813BD5BB1E55B6200046CD9E /* EPContact.swift in Sources */,
+				813BD5BE1E55B6200046CD9E /* EPContactsPicker.swift in Sources */,
+				814F8B891E51C9740012FA9A /* RearVC.swift in Sources */,
+				81B1FEC71E546641005D4EA7 /* PrivacyVC.swift in Sources */,
+				814F8B841E51C0D10012FA9A /* RegisterVC.swift in Sources */,
+				814F8B8D1E51D1D10012FA9A /* NotificationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,26 +507,33 @@
 		};
 		814F8B661E51B8990012FA9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF0D90FC509C4C01845D943 /* Pods-HoosRight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BGRCQ5KLHX;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 389M226SMP;
 				INFOPLIST_FILE = HoosRight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.koios..HoosRight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HoosRight/HoosRight-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		814F8B671E51B8990012FA9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F429073F43792AE14DF766C /* Pods-HoosRight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BGRCQ5KLHX;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 389M226SMP;
 				INFOPLIST_FILE = HoosRight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.koios..HoosRight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HoosRight/HoosRight-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +557,7 @@
 				814F8B671E51B8990012FA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
